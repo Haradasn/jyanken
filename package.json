@@ -1,0 +1,46 @@
+{
+  "name": "hello_react",
+  "version": "1.0.0",
+  "description": "Hello React",
+  "private": "true",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --open  --mode development --history-api-fallback",
+    "webpack": "webpack -d",
+    "test": "mocha --require @babel/register --timeout 5000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/plugin-transform-react-jsx": "^7.12.13",
+    "@babel/preset-env": "^7.12.13",
+    "@babel/preset-react": "^7.12.13",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^8.2.2",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^7.19.0",
+    "eslint-config-ai": "^2.6.0",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-react": "^7.22.0",
+    "material-ui": "^0.18.7",
+    "prop-types": "^15.7.2",
+    "react": "^15.7.0",
+    "react-dom": "^15.7.0",
+    "react-router-dom": "^5.2.0",
+    "react-tap-event-plugin": "^2.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/register": "^7.13.8",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "css-loader": "^0.28.11",
+    "mocha": "^8.3.1",
+    "nightmare": "^3.0.2",
+    "style-loader": "^0.18.2",
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.8"
+  }
+}
